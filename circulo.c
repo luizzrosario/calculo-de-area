@@ -2,7 +2,7 @@
 
 #define PI 3.14159
 
-int main(void)
+void area_circulo(void)
 {
     int raio;
     printf("PROGRAMA PARA CALCULAR ÁREA DE UM CÍRCULO\n");
@@ -14,6 +14,4 @@ int main(void)
     scanf("%s", &arr);
 
     printf("Área: %.2f%s²\n", raio*raio*PI, arr);
-    
-    return 0;
 }
