@@ -4,6 +4,7 @@
 #include "quadrado.h"
 #include "circulo.h"
 #include "triangulo.h"
+#include <math.h>
 
 int main()
 {
@@ -17,7 +18,6 @@ int main()
     printf("5 - Trapezio\n");
     printf("Digite o número da opção: ");
     scanf("%d", &escolha);
-    return 0;
 
     switch (escolha)
     {
@@ -25,13 +25,14 @@ int main()
         area_circulo();
         break;
     case 2:
-        //calcularAreaQuadrado();
+        calcularAreaQuadrado();
         break;
     case 3:
         calcularAreaTriangulo();
         break;
     case 4:
-        //FuncaoRetangulo();
+        printf("adicionar função para calcular o retangulo");
+        // funcaoRetangulo();
         break; 
     case 5: 
         calcularAreaTrapezio();

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define PI 3.14159
 
-void area_circulo(void)
+void area_circulo()
 {
     int raio;
     printf("PROGRAMA PARA CALCULAR ÁREA DE UM CÍRCULO\n");

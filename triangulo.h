@@ -13,7 +13,8 @@ float calcularAreaTriangulo(){
     printf("Digite a altura: ");
     scanf("%f", &h);
 
-    return ((base * h)/2);
+    float areaTriangulo = (base * h) /2 ;
+    printf("area do triangulo: %.2f", areaTriangulo);
 
 }
 
