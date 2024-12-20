@@ -17,7 +17,7 @@ float calcularAreaTriangulo(){
 
 }
 
-
+/*
 int main(){
     system("chcp 65001>nul");
 
@@ -27,3 +27,4 @@ int main(){
 
     printf("A area do triangulo é %.2f", area);
 }
+*/

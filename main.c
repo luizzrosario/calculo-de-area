@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "calcularArea.h"
+#include "area-trapezio.h"
+#include "quadrado.h"
+#include "circulo.h"
+#include "triangulo.h"
 
-int main(int argc, char const *argv[])
+int main()
 {
     int escolha;
 
@@ -22,13 +25,13 @@ int main(int argc, char const *argv[])
         area_circulo();
         break;
     case 2:
-        calcularAreaQuadrado();
+        //calcularAreaQuadrado();
         break;
     case 3:
         calcularAreaTriangulo();
         break;
     case 4:
-        FuncaoRetangulo();
+        //FuncaoRetangulo();
         break; 
     case 5: 
         calcularAreaTrapezio();
