@@ -14,5 +14,4 @@ void area_circulo(void)
     scanf("%s", &arr);
 
     printf("Área: %.2f%s²\n", raio*raio*PI, arr);
-    
 }
